@@ -1,0 +1,4 @@
+CSVmanipulation c# methods to manipulate csv file
+
+1. svCuter - method to leave the indicated columns in csv files
+  example file data.csv
