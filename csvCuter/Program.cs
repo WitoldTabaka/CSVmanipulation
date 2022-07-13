@@ -12,10 +12,10 @@ namespace csvCuter
             var data = new Program();
             List<string> Fields = new List<string>
                 { "2", "5"};
-            data.RemoveColumnByIndex(path, Fields);
+            data.RemoveColumnByFieldsNames(path, Fields);
         }
 
-        public void RemoveColumnByIndex(string path, List<string> Fields)
+        public void RemoveColumnByFieldsNames(string path, List<string> Fields)
         {
             List<string> lines = new List<string>();
             List<int> Index = new List<int>();
